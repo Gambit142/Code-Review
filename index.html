@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="header">
+        <h1 id="title">Microverse Survey Form</h1>
+        <p id="description">Please take your time to help us improve our process</p>
+      </div>
+      <form id="survey-form">
+        <div id="name-div">
+          <label for="name" id="name-label">Name</label><br>
+          <input type="text" id="name" name="name" placeholder="enter your name" required>
+        </div>
+        <div id="email-div">
+          <label for="email" id="email-label">Email</label><br>
+          <input type="text" id="email" name="email" placeholder="enter your email" required>
+        </div>
+        <div>
+          <label for="number" id="number-label">Age</label><br>
+          <input type="number" id="number" name="age" placeholder="Age" step="1" min="18" max="40">
+        </div>
+        <div>
+          <label for="dropdown">Which option best describes your current programming level</label><br>
+          <select name="level" id="dropdown">
+            <option value="Select current level">Select current level</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Jr. Developer">Jr. Developer</option>
+            <option value="Intermediate Developer">Intermediate Developer</option>
+            <option value="Sr. Developer">Sr. Developer</option>
+          </select>
+        </div>
+        <div>
+          <p>Would you recommend Microverse to friends and family?</p>
+          <label for="yes">
+            <input type="radio" name="recommend" id="yes" value="yes" required>
+            Yes
+          </label><br>
+          <label for="maybe">
+            <input type="radio" name="recommend" id="maybe" value="maybe">
+              Maybe
+          </label><br>
+          <label for="no">
+            <input type="radio" name="recommend" id="no" value="no">
+            No
+          </label><br>
+        </div>
+        <div>
+          <p>Which programming languages would you like to learn?</p>
+          <input type="checkbox" name="language" id="html" value="html">
+          <label for="html">Html</label><br>
+          <input type="checkbox" name="language" id="css" value="css">
+          <label for="css">Css</label><br>
+          <input type="checkbox" name="language" id="javascript" value="javascript">
+          <label for="javascript">Javascript</label><br>
+          <input type="checkbox" name="language" id="python" value="python">
+          <label for="python">Python</label><br>
+        </div>
+          <Label for="comments">Any comments or suggestions for us?</Label><br>
+          <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Enter your comments here"></textarea>
+        <div>
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
