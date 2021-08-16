@@ -2,13 +2,13 @@
 
 # Mobile Version
 
-![Screenshot]<img src="Images/Screenshot3.png" width="200" height="1000">
+![Screenshot]<img src="Screenshot.png" width="1200" height="1000">
 
-> This project is a Microverse project given to students and it entails replicating a figma mobile version template
+> This is a Microverse Project that requires us to perform a code review on one of the previous projects we did before getting admission to Microverse.
 
 
 ## Live Demo Link
-[Live Demo Link](https://gambit142.github.io/Mobile-Version/)
+[Live Demo Link](http://127.0.0.1:5500/)
 
 ## Built With
 
@@ -20,7 +20,7 @@
 ## Getting Started
 To get a local copy up and running:
 1. Clone this repository or download the Zip folder:
-**``git clone https://github.com/Gambit142/Mobile-Version.git``**
+**``git clone https://github.com/Gambit142/Code-Review.git``**
 2. Navigate to the location of the folder in your machine:
 **``you@your-Pc-name:~$ cd <folder>``**
 
@@ -28,8 +28,13 @@ To get a local copy up and running:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Gambit142)
--LinkedIn: [LinkedIn] (www.linkedin.com/in/francis-ugorji-a567b7168)
+- GitHub: Francis Ugorji [@githubhandle](https://github.com/Gambit142)
+  
+- LinkedIn: [LinkedIn] (www.linkedin.com/in/francis-ugorji-a567b7168)
+
+👤 **Author2**
+
+- GitHub: King Josaphat Chewa [@githubhandle](https://https://github.com/Kingjosh007)
 
 ## 🤝 Contributing
 
@@ -43,7 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to Figma for providing us with their template [Figma Template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A2346)
+- Hat tip to Microverse for the opportunity to use their platform to grow.
 - Hat tip to Microverse for well curated curriculum. Microverse [Home Page](https://bit.ly/MicroverseTN
 )
 - My Coding Partners 🏹
